@@ -1,0 +1,12 @@
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\bin\Debug\ProjektLAN.exe
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\bin\Debug\ProjektLAN.pdb
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\bin\Debug\BCMakeCert.dll
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\bin\Debug\CertMaker.dll
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\bin\Debug\FiddlerCore.dll
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\bin\Debug\FiddlerCore.xml
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\obj\x86\Debug\ProjektLAN.csprojResolveAssemblyReference.cache
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\obj\x86\Debug\ProjektLAN.Form1.resources
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\obj\x86\Debug\ProjektLAN.Properties.Resources.resources
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\obj\x86\Debug\ProjektLAN.csproj.GenerateResource.Cache
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\obj\x86\Debug\ProjektLAN.exe
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\obj\x86\Debug\ProjektLAN.pdb
