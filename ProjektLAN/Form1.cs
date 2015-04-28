@@ -6,6 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Net;
+using Org.BouncyCastle.X509;
+using System.Security.Cryptography.X509Certificates;
+using System.Net.Security;
 
 namespace ProjektLAN
 {
@@ -18,7 +22,7 @@ namespace ProjektLAN
             
             InitializeComponent();
             logs = new Logs(this.listView1);
-            capture = new Capture(this.logs);
+            
             
         }
 
@@ -29,6 +33,8 @@ namespace ProjektLAN
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.capture = new Capture(this.logs, this.textBox1.Text, this.textBox2.Text);
+
             this.capture.start();
             this.button1.Enabled = false;
             this.button2.Enabled = true;
@@ -40,5 +46,9 @@ namespace ProjektLAN
             this.button2.Enabled = false;
             this.button1.Enabled = true;
         }
+
+        
+
+       
     }
 }

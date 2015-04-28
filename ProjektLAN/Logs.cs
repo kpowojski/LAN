@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Drawing;
 
 namespace ProjektLAN
 {
@@ -30,6 +31,44 @@ namespace ProjektLAN
 
                 }));
             return true;
+        }
+
+
+        public bool addLog(String type, String url, String color)
+        {
+            ListViewItem newItem = new ListViewItem(this.listView.Items.Count.ToString());
+            newItem.SubItems.Add(type);
+            newItem.SubItems.Add(url);
+            ListViewItem item = setItemColor(newItem, color);
+
+            this.listView.Invoke(new MethodInvoker(delegate()
+                {
+                    this.listView.Items.Add(item);
+                    this.listView.Items[listView.Items.Count - 1].EnsureVisible();
+                }));
+            return true;
+        }
+
+
+        private ListViewItem setItemColor(ListViewItem item, String color)
+        {
+            if (color.Equals("red") || color.Equals("Red") || color.Equals("RED"))
+            {
+                item.ForeColor = Color.Red;
+                return item;
+            }
+            else if (color.Equals("green") || color.Equals("Green") || color.Equals("GREEN"))
+            {
+                item.ForeColor = Color.Green;
+                return item;
+            }
+
+            else
+            {
+                item.ForeColor = Color.White;
+                return item;
+            }
+
         }
 
 
