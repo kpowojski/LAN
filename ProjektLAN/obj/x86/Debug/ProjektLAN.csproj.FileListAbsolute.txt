@@ -10,3 +10,4 @@ C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\obj\x86\Debug\ProjektLAN.Propert
 C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\obj\x86\Debug\ProjektLAN.csproj.GenerateResource.Cache
 C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\obj\x86\Debug\ProjektLAN.exe
 C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\obj\x86\Debug\ProjektLAN.pdb
+C:\Users\Krystian\Desktop\ProjektLAN\ProjektLAN\bin\Debug\ProjektLAN.exe.config
