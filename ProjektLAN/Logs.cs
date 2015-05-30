@@ -65,7 +65,7 @@ namespace ProjektLAN
 
             else
             {
-                item.ForeColor = Color.White;
+                item.ForeColor = Color.Black;
                 return item;
             }
 
